@@ -1,3 +1,14 @@
+// if condition is used to perform different actions based on different conditions. 
+// It is a fundamental control structure in programming that allows you to execute certain blocks of code only when specific conditions are met. 
+// The basic syntax of an if statement in JavaScript is as follows:
+// if (condition) {
+//     // code to be executed if the condition is true
+// } else {
+//     // code to be executed if the condition is false
+// }
+
+
+
 // 1st condition
 const a= 85
 
