@@ -1,0 +1,6 @@
+console.log("A")
+console.warn("hekko")
+console.table(["hello" ,"bajb"])
+console.error("nm vmsv")
+console.info("nbnbaw")
+console.timeStamp(Date())

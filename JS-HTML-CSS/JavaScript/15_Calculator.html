@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function sum(){
+            const n1=document.getElementById("id1").value
+            const n2=document.getElementById("id2").value
+            document.getElementById("result").innerHTML=parseInt(n1)+parseInt(n2)
+        }
+        function sub(){
+            const n1=document.getElementById("id1").value
+            const n2=document.getElementById("id2").value
+            document.getElementById("result").innerHTML=parseInt(n1)-parseInt(n2)
+        }
+        function div(){
+            const n1=document.getElementById("id1").value
+            const n2=document.getElementById("id2").value
+            document.getElementById("result").innerHTML=parseInt(n1)/parseInt(n2)
+        }
+        function mul(){
+            const n1=document.getElementById("id1").value
+            const n2=document.getElementById("id2").value
+            document.getElementById("result").innerHTML=parseInt(n1)*parseInt(n2)
+        }
+    </script>
+    
+</head>
+<body>
+    <input type="number" id="id1">
+    <input type="number" id="id2">
+    <button onclick="sum()">add</button>
+    <button onclick="sub()">sub</button>
+    <button onclick="div()">div</button>
+    <button onclick="mul()">mul</button>
+
+
+    <p id="result"></p>
+</body>
+</html>

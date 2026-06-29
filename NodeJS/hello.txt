@@ -1,0 +1,23 @@
+
+Event loop and phases
+
+Non - blocking using 
+  =>call Stack
+  =>Micro Tasks
+  =>Macro Tasks
+
+REPL - Terminal
+
+NodeJs Modules - modules and Commonjs
+   - core modules
+   - Local Modules 
+   - Third party Modules
+
+Create server using Http 
+   - using url we created paths 
+
+Worked on fs(File System) and os (Operating System)
+
+Importance of nodemon and how to use
+
+Nodemailer for sending mail's

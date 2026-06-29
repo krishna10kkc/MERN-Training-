@@ -1,0 +1,11 @@
+Es6 :
+Array Objects Function Events
+1. Backtrack or Dynamic Rendering of value 
+2. Async and Await
+3. Spread Operator
+4. Rest Operator
+5. Destructing
+6. let and const 
+7. Arrow Function
+
+DOM :

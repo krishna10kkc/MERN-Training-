@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function mouse(){
+            alert("Welcome to World of HELL!!")
+
+        }
+        const timedate= document.getElementById("dateandtime").innerHTML= new Date
+
+        function buttonclick(){
+
+            document.getElementById("dateandtime").innerHTML= new Date()
+
+        }
+
+        function f1() {
+            console.log("Krishna Kumar Chaurasia")
+        }
+        function printname(){
+        const myname=String(document.getElementById("myname").value)
+        document.getElementById("n").innerHTML=myname
+        }
+    </script>
+</head>
+<body>
+    <button onmouseover="mouse()">Click me</button>
+    <button onclick="buttonclick()">Date and time</button>
+    <p id="dateandtime"></p>
+    <button onclick="f1()">tell me the name</button>
+    <input type="text" name="" id="myname" >
+    <button onclick="printname()">add name</button>
+    <p id="n"></p>
+</body>
+</html>

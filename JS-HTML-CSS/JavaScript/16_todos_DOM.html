@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const todo = () =>{
+            const list=String(document.getElementById("list1").value)
+            if(list===""){
+                alert("enter something")
+            }
+            else{
+                const li=document.createElement("li")
+                li.innerHTML=`
+                <span>${list}</span>
+                <button onclick="deletethis(this)">Delete</button>
+                <button onclick="update(this)">Update</button>
+                `
+                document.getElementById("datalist").appendChild(li)
+            }
+        }
+        function deletethis(btn){
+            btn.parentElement.remove()
+        }
+        function update(btn){
+            let newList=prompt("enter something")
+            btn.parentElement.querySelector("span").innerHTML=newList
+        }
+    </script>
+</head>
+<body>
+    <input type="text" name="" id="list1">
+    <button onclick="todo()">add</button>
+    <ul id="datalist"></ul>
+</body>
+</html>
